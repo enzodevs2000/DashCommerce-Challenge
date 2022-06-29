@@ -1,0 +1,27 @@
+{
+  "name": "desafio-dashcommerce",
+  "version": "1.0.0",
+  "description": "repo for the dashcommerce's challenger",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enzodevs2000/DashCommerce-Challenge.git"
+  },
+  "keywords": [
+    "rest",
+    "api",
+    "node"
+  ],
+  "author": "Enzo Nunes Leal Sampaio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/enzodevs2000/DashCommerce-Challenge/issues"
+  },
+  "homepage": "https://github.com/enzodevs2000/DashCommerce-Challenge#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
