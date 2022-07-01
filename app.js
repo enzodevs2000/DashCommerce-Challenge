@@ -27,5 +27,16 @@ app.use((error, req, res, next) => {
     })
 })
 
+/*var url_string = global.location;
+var url = new URL(window.location.href);
+var user = url.searchParams.get("user");
+var password = url.searchParams.get("password");
+
+console.log("user: " + user + " password: " + password);*/
+
+app.get('/', (req, res) => {
+    res.send('user: ' + req.query.user)
+});
+
 
 module.exports = app;
